@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "segunda-entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "start firebase": "node src/contenedores/ContenedorFirebase.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.2.0",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20"
+  }
+}
