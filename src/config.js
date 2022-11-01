@@ -5,7 +5,7 @@ export default {
         path: './DB'
     },
     mongodb: {
-        cnxStr: 'mongodb+srv://MaruinYork:backend@cluster0.n9vmygq.mongodb.net/ecommerce?retryWrites=true&w=majority',
+        cnxStr: 'mongodb+srv://<usuario>:<password>@cluster0.n9vmygq.mongodb.net/ecommerce?retryWrites=true&w=majority',
         options: {
             useNewUrlParser: true,
             useUnifiedTopology: true,
@@ -29,6 +29,6 @@ export default {
     },
 
     firebase: {
-        path: '../ecommerce-92c38-firebase-adminsdk-sovg4-06e238f5ae.json'
+        path: '../ecommerce-***-firebase-adminsdk-sovg4-06e238f5ae.json'
     }
 }
